@@ -81,7 +81,14 @@ class Site:
         return f'<p>[<a href="{filename(key, self.lang)}">{e(label)}</a>]</p>'
 
     def news(self, items):
-        return '<ul>' + ''.join(f'<li><time>{e(n["date"])}</time>: {e(n["text"])}</li>' for n in items) + '</ul>'
+        rows = []
+        for item in items:
+            message = e(item['text'])
+            if item.get('emphasis'):
+                emphasis = e(item['emphasis'])
+                message = message.replace(emphasis, f'<strong>{emphasis}</strong>', 1)
+            rows.append(f'<li><time>{e(item["date"])}</time>: {message}</li>')
+        return '<ul>' + ''.join(rows) + '</ul>'
 
     def research(self, items, *, show_role=False):
         result = '<ol class="research-list">'
