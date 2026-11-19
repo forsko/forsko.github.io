@@ -3,8 +3,8 @@
   "english_name": "Jun Zhang",
   "headline": "通信工程",
   "school": "厦门大学",
-  "school_url": "https://www.xmu.edu.cn/",
   "department": "信息学院",
+  "department_url": "https://informatics.xmu.edu.cn/",
   "email": "jun.zhang.edu@gmail.com",
   "location": "中国 · 福建福州",
   "portrait": "assets/image2.png",
@@ -37,11 +37,13 @@
   "news": [
     {
       "date": "2026.09",
-      "text": "获第二十三届中国研究生数学建模竞赛全国二等奖（Top 3%）。"
+      "text": "获第二十三届中国研究生数学建模竞赛全国二等奖（Top 3%）。",
+      "emphasis": "Top 3%"
     },
     {
       "date": "2026.03",
-      "text": "我们关于动态图增强与分层特征融合的高光谱波段选择论文已发表于 IEEE TGRS（CCF B）。"
+      "text": "我们关于动态图增强与分层特征融合的高光谱波段选择论文已发表于 IEEE TGRS（CCF B）。",
+      "emphasis": "CCF B"
     },
     {
       "date": "2025.08",
@@ -212,7 +214,7 @@
     {
       "date": "2026.09",
       "name": "第二十三届中国研究生数学建模竞赛",
-      "award": "全国二等奖（Top 3%）"
+      "award": "全国二等奖"
     },
     {
       "date": "2023.09",

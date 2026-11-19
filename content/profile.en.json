@@ -4,6 +4,7 @@
   "headline": "Communication Engineering",
   "school": "Xiamen University",
   "department": "School of Informatics",
+  "department_url": "https://informatics.xmu.edu.cn/en/",
   "about": [
     "I am currently studying Communication Engineering at Xiamen University. Previously, I studied Software Engineering at the School of Computer Science and Technology, Qingdao University."
   ],
@@ -30,11 +31,13 @@
   "news": [
     {
       "date": "September 2026",
-      "text": "Our team won National Second Prize in the 23rd China Postgraduate Mathematical Contest in Modeling (Top 3%)."
+      "text": "Our team won National Second Prize in the 23rd China Postgraduate Mathematical Contest in Modeling (Top 3%).",
+      "emphasis": "Top 3%"
     },
     {
       "date": "March 2026",
-      "text": "Our paper on hyperspectral band selection with dynamic graph enhancement and hierarchical feature fusion was published in IEEE TGRS (CCF B)."
+      "text": "Our paper on hyperspectral band selection with dynamic graph enhancement and hierarchical feature fusion was published in IEEE TGRS (CCF B).",
+      "emphasis": "CCF B"
     },
     {
       "date": "August 2025",
@@ -188,7 +191,7 @@
     {
       "date": "September 2026",
       "name": "23rd China Postgraduate Mathematical Contest in Modeling",
-      "award": "National Second Prize (Top 3%)"
+      "award": "National Second Prize"
     },
     {
       "date": "September 2023",

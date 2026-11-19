@@ -156,7 +156,7 @@ class Site:
         name = f'{e(d["name"])} ({e(d["native_name"])})' if self.lang == 'en' else e(d['name'])
         socials = ' '.join('[' + external(x['url'], x['label']) + ']' for x in d['social_links'])
         profile = f'''<div class="profile"><img class="portrait" src="{e(d['portrait'])}" alt="{e(t['portrait'])}" width="1199" height="1312" fetchpriority="high">
-        <div><p>{name}<br>{e(d['headline'])}</p><p>{external(d['school_url'], d['school'])}</p>
+        <div><p>{name}<br>{e(d['headline'])}</p><p>{external(d['department_url'], d['school'])}</p>
         <p>E-mail: {external('mailto:' + d['email'], d['email'])}</p>{f'<p>{socials}</p>' if socials else ''}</div></div>'''
         about = ''.join(f'<p>{e(p)}</p>' for p in d['about']) + f'<p>{e(t["interests"])}</p>' + listing(d['interests'])
         return (profile + section(t['about'], about)
