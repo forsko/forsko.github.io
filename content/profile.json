@@ -1,0 +1,223 @@
+{
+  "name": "张骏",
+  "english_name": "Jun Zhang",
+  "headline": "通信工程",
+  "school": "厦门大学",
+  "school_url": "https://www.xmu.edu.cn/",
+  "department": "信息学院",
+  "email": "jun.zhang.edu@gmail.com",
+  "location": "中国 · 福建福州",
+  "portrait": "assets/image2.png",
+  "school_logo": "assets/xmu-emblem.jpg",
+  "source_note": "基本资料与论文进展已根据本人更新，其他经历参考个人简历。",
+  "social_links": [],
+  "about": [
+    "我目前就读于厦门大学通信工程专业，此前在青岛大学计算机科学技术学院学习软件工程。"
+  ],
+  "interests": [
+    "图像模式识别",
+    "视觉语言模型后训练",
+    "具身智能安全"
+  ],
+  "education": {
+    "period": "2022.09 — 2026.06",
+    "major": "软件工程",
+    "rank": "2 / 148（前 1.35%）",
+    "gpa": "3.78 / 4.00",
+    "average": "90.09 / 100",
+    "english": "CET-4：529 · CET-6：465",
+    "scholarships": [
+      "青岛大学校长奖学金（前 1%）",
+      "青岛大学校级一等奖学金（前 5%）"
+    ],
+    "school": "青岛大学",
+    "department": "计算机科学技术学院",
+    "logo": "assets/qdu-emblem.png"
+  },
+  "news": [
+    {
+      "date": "2026.09",
+      "text": "获第二十三届中国研究生数学建模竞赛全国二等奖（Top 3%）。"
+    },
+    {
+      "date": "2026.03",
+      "text": "我们关于动态图增强与分层特征融合的高光谱波段选择论文已发表于 IEEE TGRS（CCF B）。"
+    },
+    {
+      "date": "2025.08",
+      "text": "获睿抗机器人开发者大赛编程技能赛国家级一等奖。"
+    },
+    {
+      "date": "2025.08",
+      "text": "获中国大学生计算机设计大赛国家级三等奖。"
+    },
+    {
+      "date": "2024.05",
+      "text": "获中国大学生程序设计竞赛（CCPC）全国邀请赛铜奖。"
+    },
+    {
+      "date": "2024.02",
+      "text": "获美国大学生数学建模竞赛 H 奖。"
+    },
+    {
+      "date": "2023.09",
+      "text": "获全国大学生数学建模竞赛省级二等奖。"
+    }
+  ],
+  "research": [
+    {
+      "id": "band-selection",
+      "title": "Hyperspectral Band Selection With Dynamic Graph Enhancement and Hierarchical Feature Fusion",
+      "english_title": "Graph Learning and Hierarchical Feature Fusion for Band Selection",
+      "role": "第四作者",
+      "period": "2024.11 — 2025.06",
+      "status": "已发表于 IEEE TGRS（2026）",
+      "summary": "融合自动编码器与动态图卷积神经网络，挖掘高光谱图像的非线性关系及波段邻接关系，通过注意力机制完成分层特征融合，并结合谱聚类筛选代表性波段。",
+      "details": [
+        "参与动态图构建与更新，使用光谱–波长联合相似度更新邻接矩阵。",
+        "在 Indian Pines 数据集上，相较单一光谱相似度方案，分类精度提升 0.62%。",
+        "参与竞赛技术报告撰写与文书打磨，绘制图卷积模块架构图。",
+        "相关项目获中国大学生计算机设计大赛国家级三等奖。"
+      ],
+      "tags": [
+        "Graph Learning",
+        "Band Selection",
+        "Feature Fusion"
+      ],
+      "links": [
+        {
+          "label": "论文",
+          "url": "https://doi.org/10.1109/TGRS.2026.3676136"
+        }
+      ],
+      "group": "published",
+      "authors": "J. Zhang, J. Wang, D. Li, Jun Zhang, X. Sun, and X. Shang",
+      "corresponding_author": "X. Shang",
+      "citation": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 64: 1–16, 5508816, 2026.",
+      "journal_rank": "中科院一区，TOP 期刊"
+    },
+    {
+      "id": "embedding-guard",
+      "group": "conference",
+      "title": "Optimizing Text Mutual Information as an Embedding Guard Against Embedding Inversion Attacks",
+      "authors": "Y. Xia, Jun Zhang, and L. Tian",
+      "corresponding_author": "L. Tian",
+      "role": "第二作者",
+      "citation": "Proceedings of the ACM Turing Award Celebration Conference - China 2026 (ACM-TURC ’26), 218–220.",
+      "links": [
+        {
+          "label": "论文",
+          "url": "https://dl.acm.org/doi/10.1145/3833142.3833193"
+        }
+      ]
+    },
+    {
+      "id": "gnn-transformer",
+      "title": "A Spectral-Adaptive GCN-Transformer Framework with Spatial-Spectral Feature Fusion for Hyperspectral Image Classification",
+      "authors": "X. Sun, Jun Zhang, X. Lv, J. Wang, J. Zhang, H. Zhang, and X. Shang",
+      "corresponding_author": "X. Shang",
+      "role": "第二作者（学生一作）",
+      "period": "2024.12 开始（简历记录）",
+      "status": "Pattern Recognition（PR），正在返修",
+      "summary": "设计 GNN–Transformer 融合网络，以光谱自适应双阶段 GNN 增强空间邻域特征，以光谱引导 Transformer 建模非局部谱域信息，实现空间与光谱信息的协同提取。",
+      "details": [
+        "设计静态图聚合、光谱差异图机制与轴向感知特征融合模块，筛选关键邻居节点，缓解图卷积的过平滑问题。",
+        "通过光谱标记化精简输入序列，并引入度归一化矩阵与自环改进注意力机制。",
+        "Indian Pines 数据集分类精度为 96.81%，相较所比较的 GNN–Transformer 模型提升 3.23%。",
+        "省级大学生创新项目；独立完成方法部分论文撰写与消融实验。"
+      ],
+      "tags": [
+        "GNN",
+        "Transformer",
+        "Hyperspectral Imaging"
+      ],
+      "links": [
+        {
+          "label": "代码",
+          "url": "https://github.com/forsko/SAGFormer/tree/latest/trans-gcn-latest"
+        }
+      ],
+      "group": "submitted",
+      "journal_rank": "CCF B"
+    },
+    {
+      "id": "vppo",
+      "group": "submitted",
+      "title": "基于视频先验与偏好优化的视觉–语言–动作模型后训练方法",
+      "authors": "T. Liu, Jun Zhang, Y. Xia, and H. Yao",
+      "corresponding_author": "H. Yao",
+      "role": "第二作者（学生一作）",
+      "status": "已投稿《自动化学报》",
+      "summary": "利用视频先验，结合混合损失监督微调与基于策略执行反馈的轨迹偏好优化，研究视觉–语言–动作模型的后训练。",
+      "details": [
+        "针对连续位姿动作与二值夹爪状态设计不同监督信号。",
+        "根据仿真执行反馈构造偏好数据，并结合轨迹偏好约束与监督正则项优化策略。"
+      ],
+      "links": [
+        {
+          "label": "代码",
+          "url": "https://github.com/JunZhang-03/VPPO"
+        }
+      ],
+      "journal_rank": "CCF A"
+    }
+  ],
+  "projects": [
+    {
+      "id": "band-selection",
+      "title": "高光谱波段选择",
+      "url": "https://github.com/ShangXD1994/DEHF-for-hyperspectral-band-selection",
+      "summary": "通过动态图增强筛选代表性波段。"
+    },
+    {
+      "id": "gnn-transformer",
+      "title": "高光谱图像分类",
+      "url": "https://github.com/forsko/SAGFormer/tree/latest/trans-gcn-latest",
+      "summary": "用光谱自适应 GCN–Transformer 融合空谱特征。"
+    },
+    {
+      "id": "vppo",
+      "title": "VPPO",
+      "url": "https://github.com/JunZhang-03/VPPO",
+      "summary": "用视频先验和 TPO 对 VLA 模型进行后训练。"
+    }
+  ],
+  "awards": [
+    {
+      "date": "2024.05",
+      "name": "中国大学生程序设计竞赛（CCPC）全国邀请赛",
+      "award": "铜奖"
+    },
+    {
+      "date": "2025.08",
+      "name": "睿抗机器人开发者大赛 · 编程技能赛",
+      "award": "国家级一等奖"
+    },
+    {
+      "date": "2025.06",
+      "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "award": "国家级三等奖"
+    },
+    {
+      "date": "2025.08",
+      "name": "中国大学生计算机设计大赛",
+      "award": "国家级三等奖"
+    },
+    {
+      "date": "2024.02",
+      "name": "美国大学生数学建模竞赛",
+      "award": "H 奖"
+    },
+    {
+      "date": "2026.09",
+      "name": "第二十三届中国研究生数学建模竞赛",
+      "award": "全国二等奖（Top 3%）"
+    },
+    {
+      "date": "2023.09",
+      "name": "全国大学生数学建模竞赛",
+      "award": "省级二等奖"
+    }
+  ],
+  "school_period": "2026.09-至今"
+}

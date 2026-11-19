@@ -1,0 +1,199 @@
+{
+  "name": "Jun Zhang",
+  "native_name": "张骏",
+  "headline": "Communication Engineering",
+  "school": "Xiamen University",
+  "department": "School of Informatics",
+  "about": [
+    "I am currently studying Communication Engineering at Xiamen University. Previously, I studied Software Engineering at the School of Computer Science and Technology, Qingdao University."
+  ],
+  "interests": [
+    "Image pattern recognition",
+    "Post-training for vision-language models",
+    "Embodied AI safety"
+  ],
+  "education": {
+    "school": "Qingdao University",
+    "department": "School of Computer Science and Technology",
+    "logo": "assets/qdu-emblem.png",
+    "period": "September 2022 – June 2026",
+    "major": "Software Engineering",
+    "rank": "2 / 148 (top 1.35%)",
+    "gpa": "3.78 / 4.00",
+    "average": "90.09 / 100",
+    "english": "CET-4: 529; CET-6: 465",
+    "scholarships": [
+      "President’s Scholarship, Qingdao University (top 1%)",
+      "First-Class University Scholarship, Qingdao University (top 5%)"
+    ]
+  },
+  "news": [
+    {
+      "date": "September 2026",
+      "text": "Our team won National Second Prize in the 23rd China Postgraduate Mathematical Contest in Modeling (Top 3%)."
+    },
+    {
+      "date": "March 2026",
+      "text": "Our paper on hyperspectral band selection with dynamic graph enhancement and hierarchical feature fusion was published in IEEE TGRS (CCF B)."
+    },
+    {
+      "date": "August 2025",
+      "text": "Received a National First Prize in the Programming Skills Competition of the RAICOM Robot Developer Competition."
+    },
+    {
+      "date": "August 2025",
+      "text": "Received a National Third Prize in the Chinese Collegiate Computing Competition."
+    },
+    {
+      "date": "May 2024",
+      "text": "Won a bronze medal in the China Collegiate Programming Contest (CCPC) National Invitational."
+    },
+    {
+      "date": "February 2024",
+      "text": "Received an Honorable Mention in the Mathematical Contest in Modeling (MCM)."
+    },
+    {
+      "date": "September 2023",
+      "text": "Received a Provincial Second Prize in the China Undergraduate Mathematical Contest in Modeling."
+    }
+  ],
+  "research": [
+    {
+      "id": "band-selection",
+      "group": "published",
+      "title": "Hyperspectral Band Selection With Dynamic Graph Enhancement and Hierarchical Feature Fusion",
+      "authors": "J. Zhang, J. Wang, D. Li, Jun Zhang, X. Sun, and X. Shang",
+      "corresponding_author": "X. Shang",
+      "role": "Fourth author",
+      "citation": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), vol. 64, pp. 1–16, Art. no. 5508816, 2026.",
+      "summary": "Combined an autoencoder with a dynamic graph convolutional network to model nonlinear features and inter-band relationships, with hierarchical feature fusion for representative band selection.",
+      "details": [
+        "Contributed to dynamic graph construction and adjacency updates based on joint spectral–wavelength similarity.",
+        "Conducted experiments on Indian Pines, co-wrote competition technical reports, and illustrated the graph convolution module architecture."
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2026.3676136"
+        }
+      ],
+      "journal_rank": "CCF B · CAS Q1 TOP"
+    },
+    {
+      "id": "embedding-guard",
+      "group": "conference",
+      "title": "Optimizing Text Mutual Information as an Embedding Guard Against Embedding Inversion Attacks",
+      "authors": "Y. Xia, Jun Zhang, and L. Tian",
+      "corresponding_author": "L. Tian",
+      "role": "Second author",
+      "citation": "Proceedings of the ACM Turing Award Celebration Conference - China 2026 (ACM-TURC ’26), pp. 218–220.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dl.acm.org/doi/10.1145/3833142.3833193"
+        }
+      ]
+    },
+    {
+      "id": "gnn-transformer",
+      "group": "submitted",
+      "title": "A Spectral-Adaptive GCN-Transformer Framework with Spatial-Spectral Feature Fusion for Hyperspectral Image Classification",
+      "authors": "X. Sun, Jun Zhang, X. Lv, J. Wang, J. Zhang, H. Zhang, and X. Shang",
+      "corresponding_author": "X. Shang",
+      "role": "Second author (first student author)",
+      "status": "Under revision at Pattern Recognition (PR).",
+      "summary": "Developed a GNN–Transformer framework combining a spectral-adaptive, two-stage GNN for spatial neighborhood enhancement with a spectral-guided Transformer for nonlocal spectral modeling.",
+      "details": [
+        "Designed static-graph aggregation, a spectral-difference graph mechanism, and an axial-aware feature fusion module to select informative neighbors and mitigate oversmoothing.",
+        "Used spectral tokenization, degree normalization, and self-loops to improve attention-based spectral modeling.",
+        "Independently wrote the methodology section and completed ablation experiments as part of a provincial undergraduate innovation project."
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/forsko/SAGFormer/tree/latest/trans-gcn-latest"
+        }
+      ],
+      "journal_rank": "CCF B"
+    },
+    {
+      "id": "vppo",
+      "group": "submitted",
+      "title": "VPPO: A Post-Training Method for Vision-Language-Action Models Based on Video Priors and Preference Optimization",
+      "authors": "T. Liu, Jun Zhang, Y. Xia, and H. Yao",
+      "corresponding_author": "H. Yao",
+      "role": "Second author (first student author)",
+      "status": "Submitted to Acta Automatica Sinica.",
+      "summary": "Studied post-training for VLA models using video priors, hybrid-loss supervised fine-tuning, and trajectory preference optimization with policy execution feedback.",
+      "details": [
+        "Used separate supervision for continuous pose actions and binary gripper states.",
+        "Constructed preference data from simulated policy execution and combined trajectory preference optimization with supervised regularization."
+      ],
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/JunZhang-03/VPPO"
+        }
+      ],
+      "journal_rank": "CCF A"
+    }
+  ],
+  "projects": [
+    {
+      "id": "band-selection",
+      "title": "Hyperspectral Band Selection",
+      "url": "https://github.com/ShangXD1994/DEHF-for-hyperspectral-band-selection",
+      "summary": "Selects bands via dynamic graph enhancement."
+    },
+    {
+      "id": "gnn-transformer",
+      "title": "Hyperspectral Image Classification",
+      "url": "https://github.com/forsko/SAGFormer/tree/latest/trans-gcn-latest",
+      "summary": "Spatial–spectral fusion with GCN–Transformer."
+    },
+    {
+      "id": "vppo",
+      "title": "VPPO",
+      "url": "https://github.com/JunZhang-03/VPPO",
+      "summary": "Post-trains VLA models with video priors and TPO."
+    }
+  ],
+  "awards": [
+    {
+      "date": "May 2024",
+      "name": "China Collegiate Programming Contest (CCPC) National Invitational",
+      "award": "Bronze Medal"
+    },
+    {
+      "date": "August 2025",
+      "name": "RAICOM Robot Developer Competition, Programming Skills",
+      "award": "National First Prize"
+    },
+    {
+      "date": "June 2025",
+      "name": "Lanqiao Cup National Software and Information Technology Professionals Competition",
+      "award": "National Third Prize"
+    },
+    {
+      "date": "August 2025",
+      "name": "Chinese Collegiate Computing Competition",
+      "award": "National Third Prize"
+    },
+    {
+      "date": "February 2024",
+      "name": "Mathematical Contest in Modeling (MCM)",
+      "award": "Honorable Mention"
+    },
+    {
+      "date": "September 2026",
+      "name": "23rd China Postgraduate Mathematical Contest in Modeling",
+      "award": "National Second Prize (Top 3%)"
+    },
+    {
+      "date": "September 2023",
+      "name": "China Undergraduate Mathematical Contest in Modeling",
+      "award": "Provincial Second Prize"
+    }
+  ],
+  "school_period": "September 2026 – present"
+}

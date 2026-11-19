@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+artifacts/
+/dist/
+/assets/image1.png
