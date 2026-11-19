@@ -100,8 +100,8 @@
       "id": "embedding-guard",
       "group": "conference",
       "title": "Optimizing Text Mutual Information as an Embedding Guard Against Embedding Inversion Attacks",
-      "authors": "Y. Xia, Jun Zhang, and L. Tian",
-      "corresponding_author": "L. Tian",
+      "authors": "Y. Xia, Jun Zhang, and T. Liu",
+      "corresponding_author": "T. Liu",
       "role": "第二作者",
       "citation": "Proceedings of the ACM Turing Award Celebration Conference - China 2026 (ACM-TURC ’26), 218–220.",
       "links": [
