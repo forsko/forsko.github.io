@@ -159,10 +159,11 @@ class Site:
         <div><p>{name}<br>{e(d['headline'])}</p><p>{external(d['department_url'], d['school'])}</p>
         <p>E-mail: {external('mailto:' + d['email'], d['email'])}</p>{f'<p>{socials}</p>' if socials else ''}</div></div>'''
         about = ''.join(f'<p>{e(p)}</p>' for p in d['about']) + f'<p>{e(t["interests"])}</p>' + listing(d['interests'])
+        selected = [item for item in d['research'] if item.get('selected', True)]
         return (profile + section(t['about'], about)
                 + section(t['recent'], self.news(d['news'][:5]) + self.more('news', t['all_news']))
                 + section(t['education'], self.education(), 'education')
-                + section(t['research'], self.research(d['research'], show_role=True) + self.more('publications', t['more_research']))
+                + section(t['research'], self.research(selected, show_role=True) + self.more('publications', t['more_research']))
                 + section(t['honors'], listing(d['education']['scholarships']) + self.more('rewards', t['all_awards'])))
 
     def body(self, key):

@@ -22,7 +22,7 @@
   "education": {
     "period": "2022.09 – 2026.06",
     "major": "软件工程",
-    "rank": "2 / 148（前 1.35%）",
+    "rank": "前 1.5%",
     "gpa": "3.78 / 4.00",
     "average": "90.09 / 100",
     "english": "CET-4：529 · CET-6：465",
@@ -37,8 +37,8 @@
   "news": [
     {
       "date": "2026.09",
-      "text": "我们团队获第二十三届中国研究生数学建模竞赛全国二等奖（Top 3%）。",
-      "emphasis": "Top 3%"
+      "text": "我们团队获第二十三届中国研究生数学建模竞赛全国二等奖（前3%）。",
+      "emphasis": "前3%"
     },
     {
       "date": "2026.03",
@@ -50,17 +50,14 @@
       "text": "我在睿抗机器人开发者大赛编程技能赛中获国家级一等奖。"
     },
     {
+      "date": "2024.12",
+      "text": "获青岛大学校长奖学金（前 1%）。",
+      "emphasis": "前 1%"
+    },
+    {
       "date": "2024.05",
       "text": "我们团队获中国大学生程序设计竞赛（CCPC）全国邀请赛铜奖！🥉",
       "emphasis": "CCPC"
-    },
-    {
-      "date": "2024.02",
-      "text": "获美国大学生数学建模竞赛 H 奖。"
-    },
-    {
-      "date": "2023.09",
-      "text": "获全国大学生数学建模竞赛省级二等奖。"
     }
   ],
   "research": [
@@ -98,6 +95,7 @@
     {
       "id": "embedding-guard",
       "group": "conference",
+      "selected": false,
       "title": "Optimizing Text Mutual Information as an Embedding Guard Against Embedding Inversion Attacks",
       "authors": "Y. Xia, Jun Zhang, and T. Liu",
       "corresponding_author": "T. Liu",
@@ -183,6 +181,11 @@
   ],
   "awards": [
     {
+      "date": "2026.09",
+      "name": "「华为杯」第二十三届中国研究生数学建模竞赛",
+      "award": "全国二等奖"
+    },
+    {
       "date": "2024.05",
       "name": "中国大学生程序设计竞赛（CCPC）全国邀请赛",
       "award": "铜奖"
@@ -193,29 +196,19 @@
       "award": "国家级一等奖"
     },
     {
-      "date": "2025.06",
-      "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "date": "2025.08",
+      "name": "中国大学生计算机设计大赛",
       "award": "国家级三等奖"
     },
     {
-      "date": "2025.08",
-      "name": "中国大学生计算机设计大赛",
+      "date": "2025.06",
+      "name": "蓝桥杯全国软件和信息技术专业人才大赛",
       "award": "国家级三等奖"
     },
     {
       "date": "2024.02",
       "name": "美国大学生数学建模竞赛",
       "award": "H 奖"
-    },
-    {
-      "date": "2026.09",
-      "name": "第二十三届中国研究生数学建模竞赛",
-      "award": "全国二等奖"
-    },
-    {
-      "date": "2023.09",
-      "name": "全国大学生数学建模竞赛",
-      "award": "省级二等奖"
     }
   ],
   "school_period": "2026.09 – 至今"

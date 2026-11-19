@@ -19,13 +19,13 @@
     "logo": "assets/qdu-emblem.png",
     "period": "September 2022 – June 2026",
     "major": "Software Engineering",
-    "rank": "2 / 148 (top 1.35%)",
+    "rank": "Top 1.5%",
     "gpa": "3.78 / 4.00",
     "average": "90.09 / 100",
     "english": "CET-4: 529; CET-6: 465",
     "scholarships": [
-      "President’s Scholarship, Qingdao University (top 1%)",
-      "First-Class University Scholarship, Qingdao University (top 5%)"
+      "President’s Scholarship, Qingdao University (Top 1%)",
+      "First-Class University Scholarship, Qingdao University (Top 5%)"
     ]
   },
   "news": [
@@ -44,17 +44,14 @@
       "text": "I won a National First Prize in the Programming Skills Competition of the RAICOM Robot Developer Competition."
     },
     {
+      "date": "December 2024",
+      "text": "I received the Qingdao University President’s Scholarship (Top 1%).",
+      "emphasis": "Top 1%"
+    },
+    {
       "date": "May 2024",
       "text": "Our team won a bronze medal in the China Collegiate Programming Contest (CCPC) National Invitational! 🥉",
       "emphasis": "CCPC"
-    },
-    {
-      "date": "February 2024",
-      "text": "Received an Honorable Mention in the Mathematical Contest in Modeling (MCM)."
-    },
-    {
-      "date": "September 2023",
-      "text": "Received a Provincial Second Prize in the China Undergraduate Mathematical Contest in Modeling."
     }
   ],
   "research": [
@@ -82,6 +79,7 @@
     {
       "id": "embedding-guard",
       "group": "conference",
+      "selected": false,
       "title": "Optimizing Text Mutual Information as an Embedding Guard Against Embedding Inversion Attacks",
       "authors": "Y. Xia, Jun Zhang, and T. Liu",
       "corresponding_author": "T. Liu",
@@ -160,6 +158,11 @@
   ],
   "awards": [
     {
+      "date": "September 2026",
+      "name": "Huawei Cup, 23rd China Postgraduate Mathematical Contest in Modeling",
+      "award": "National Second Prize"
+    },
+    {
       "date": "May 2024",
       "name": "China Collegiate Programming Contest (CCPC) National Invitational",
       "award": "Bronze Medal"
@@ -170,29 +173,19 @@
       "award": "National First Prize"
     },
     {
-      "date": "June 2025",
-      "name": "Lanqiao Cup National Software and Information Technology Professionals Competition",
+      "date": "August 2025",
+      "name": "Chinese Collegiate Computing Competition",
       "award": "National Third Prize"
     },
     {
-      "date": "August 2025",
-      "name": "Chinese Collegiate Computing Competition",
+      "date": "June 2025",
+      "name": "Lanqiao Cup National Software and Information Technology Professionals Competition",
       "award": "National Third Prize"
     },
     {
       "date": "February 2024",
       "name": "Mathematical Contest in Modeling (MCM)",
       "award": "Honorable Mention"
-    },
-    {
-      "date": "September 2026",
-      "name": "23rd China Postgraduate Mathematical Contest in Modeling",
-      "award": "National Second Prize"
-    },
-    {
-      "date": "September 2023",
-      "name": "China Undergraduate Mathematical Contest in Modeling",
-      "award": "Provincial Second Prize"
     }
   ],
   "school_period": "September 2026 – present"
