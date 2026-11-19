@@ -180,6 +180,7 @@ class Site:
         nav = ''.join(f'<a href="{filename(k, self.lang)}" {"aria-current=page" if key == k else ""}>{e(t["nav"][i])}</a>' for i, k in enumerate(PAGES))
         return f'''<!doctype html>
 <html lang="{language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <meta name="description" content="{e(t['description'])}"><meta name="theme-color" content="#ffffff"><title>{e(title)}</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css">
 <link rel="alternate" hreflang="{t['switch_lang']}" href="{filename(key, other)}"></head>
