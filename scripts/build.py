@@ -24,7 +24,7 @@ LABELS = {
         'masters': 'Master',
         'skip': 'Skip to content', 'navigation': 'Main navigation',
         'switch': '中文', 'switch_label': '切换到中文', 'switch_lang': 'zh-CN',
-        'description': 'Jun Zhang studies Communication Engineering at Xiamen University. His research interests include image pattern recognition, post-training for vision-language models, and embodied AI safety.'
+        'description': 'Jun Zhang studies Communication Engineering at Xiamen University. His research interests include image pattern recognition, post-training for VLA models, and embodied AI safety.'
     },
     'zh': {
         'nav': ('首页', '动态', '论文', '荣誉'),
@@ -42,7 +42,7 @@ LABELS = {
         'masters': '硕士',
         'skip': '跳转到正文', 'navigation': '主导航',
         'switch': 'English', 'switch_label': 'Switch to English', 'switch_lang': 'en',
-        'description': '张骏，厦门大学通信工程专业，研究兴趣包括图像模式识别、视觉语言模型后训练和具身智能安全。'
+        'description': '张骏，厦门大学通信工程专业，研究兴趣包括图像模式识别、视觉-语言-动作模型后训练和具身智能安全。'
     }
 }
 
